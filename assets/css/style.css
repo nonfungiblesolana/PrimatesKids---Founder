@@ -1,14 +1,14 @@
-@font-face { font-family: Grinched; src: url('Grinched.otf'); } 
+@font-face { font-family: Nexa; src: url('Nexa.otf'); } 
 
 * {
     box-sizing: border-box;
     scroll-behavior: smooth;
-    font-family: 'Grinched', sans-serif
+    font-family: 'Nexa', sans-serif
 }
 
 head {
 
-    font-family: 'Grinched', sans-serif
+    font-family: 'Nexa', sans-serif
 
 }
 
