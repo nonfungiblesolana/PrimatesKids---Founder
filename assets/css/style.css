@@ -339,14 +339,14 @@ header .logo img {
     font-weight: 600;
     font-size: 16px;
     line-height: 32px;
-    color: #000;
+    color: #fff;
     padding: 0px 75px;
     height: 50px;
     cursor: pointer;
     transition-duration: 0.3s;
     letter-spacing: 0.5px;
     justify-content: center !important;
-    background: #ffcc00;
+    background: #c62f42;
     margin-top: 20px;
     margin-bottom: 10px;
     transition: 0.5s;
