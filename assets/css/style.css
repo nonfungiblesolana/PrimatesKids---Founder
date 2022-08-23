@@ -16,7 +16,7 @@ body {
     
     overflow-x: hidden;
     font-family: 'Grinched', sans-serif;
-    background: url("../img/bg.JPG") 0% 0% / cover no-repeat;
+    background: url("../img/bg.jpg") 0% 0% / cover no-repeat;
     color: rgb(0, 0, 0);
     display: flex;
     justify-content: center;
@@ -346,14 +346,14 @@ header .logo img {
     transition-duration: 0.3s;
     letter-spacing: 0.5px;
     justify-content: center !important;
-    background: #c62f42;
+    background: linear-gradient( 87.22deg, #1978f3 5.62%, #00b4ff 50.96% );
     margin-top: 20px;
     margin-bottom: 10px;
     transition: 0.5s;
 }
 
 #root button:hover {
-    background: #fff !important;
+    background: linear-gradient( 87.22deg, #1978f3 5.62%, #00b4ff 50.96% );
     color: #000;
     backdrop-filter: blur(10px);
     transform: scale(1.1);
