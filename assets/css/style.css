@@ -16,7 +16,7 @@ body {
     
     overflow-x: hidden;
     font-family: 'Grinched', sans-serif;
-    background: url("../img/bg.jpg") 0% 0% / cover no-repeat;
+    background: url("../img/bg.JPEG") 0% 0% / cover no-repeat;
     color: rgb(0, 0, 0);
     display: flex;
     justify-content: center;
