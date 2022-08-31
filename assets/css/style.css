@@ -16,7 +16,7 @@ body {
     
     overflow-x: hidden;
     font-family: 'Grinched', sans-serif;
-    background: url("../img/bg.jpg") 0% 0% / cover no-repeat;
+    background: url("../img/08E69429-E3C5-46D0-B47A-18F875A408A6.jpeg") 0% 0% / cover no-repeat;
     color: rgb(0, 0, 0);
     display: flex;
     justify-content: center;
@@ -111,7 +111,7 @@ header .logo img {
 
 .main-area__right {
     max-width: 550px;
-    background-color: rgba(0,0,0,.8);
+    background-color: rgba(6,27,41,.8);
     padding: 40px 30px;
     backdrop-filter: blur(10px);
     border-radius: 15px;
@@ -179,7 +179,7 @@ header .logo img {
 .token-line .progress-line {
     position: absolute;
     inset: 0px;
-    background: linear-gradient( 87.22deg, #1978f3 5.62%, #00b4ff 50.96% );
+    background: linear-gradient( 87.22deg, #07e4dc 5.62%, #05f7a3 50.96% );
     height: 5px;
     border-radius: 6px;
 }
@@ -346,14 +346,14 @@ header .logo img {
     transition-duration: 0.3s;
     letter-spacing: 0.5px;
     justify-content: center !important;
-    background: linear-gradient( 87.22deg, #1978f3 5.62%, #00b4ff 50.96% );
+    background: linear-gradient( 87.22deg, #07e4dc 5.62%, #05f7a3 50.96% );
     margin-top: 20px;
     margin-bottom: 10px;
     transition: 0.5s;
 }
 
 #root button:hover {
-    background: linear-gradient( 87.22deg, #1978f3 5.62%, #00b4ff 50.96% );
+    background: linear-gradient( 87.22deg, #07e4dc 5.62%, #05f7a3 50.96% );
     color: #000;
     backdrop-filter: blur(10px);
     transform: scale(1.1);
